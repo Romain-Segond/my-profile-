@@ -1,0 +1,114 @@
+body {
+	background-image: url(images/wood.jpg);
+	color: white;
+	font-family: Trade Winds;
+	font-size: 26px;
+
+
+}
+h2 {color: grey; font-size: 20px;}
+div	{
+	width: 1100px auto;
+	margin: 40px auto;
+	padding: 10px;
+	background-color: rgb(70, 70, 70);                         
+	padding: 20px;                             
+	border-radius: 40px;                        
+	box-shadow: 10px 10px 15px black; 
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+	color: black;
+	font-family: 'Fugaz One';
+	font-size: 56px;
+	box-shadow: 0px 10px 10px white;
+
+}
+
+.container {
+	width: 1200px;
+	margin: 40px auto;
+	text-align: center;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px black;
+} 
+
+.img-circle {
+	border-radius: 20%;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 80px
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+#facebook {
+	color: #0040FF;
+}
+#instagram {
+	color: #FF00FF;
+}
+#linkedin {
+	color: #2ECCFA;
+}
+#youtube {
+	color: #FF0000;
+}
+#facebook:hover {
+	color: black;
+}
+#instagram:hover {
+	color: black;
+}
+#linkedin:hover {
+	color: black;
+}
+#youtube:hover {
+	color: black;
+}
+.social {
+	width: 100px auto;
+	margin: 40px auto;
+	padding: 10px;
+	background-color: rgb(70, 70, 70);                         
+	padding: 20px;                             
+	border-radius: 40px;                        
+	box-shadow: 10px 10px 15px black; 
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
